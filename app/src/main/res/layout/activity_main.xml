@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.spider_project.MainActivity">
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/space1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get-Started"
+        android:layout_below="@+id/image1"/>
+
+    <Space
+
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_below="@+id/button1"/>
+
+    <ImageView
+
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space2"
+        android:src="@drawable/downloadnews"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get-Started"
+        android:layout_below="@+id/image2"/>
+
+
+</RelativeLayout>
